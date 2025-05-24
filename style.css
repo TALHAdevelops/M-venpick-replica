@@ -162,6 +162,7 @@
 }
 .rooms{
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 .rooms h2,.cap{
     color: #8b6f3d;
@@ -214,5 +215,83 @@ text-decoration: none;
     padding: 15px 30px;
 }
 .butt2:hover{
+    text-decoration: underline;
+}
+
+.rab{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.rab h2{
+    color: #8b6f3d;
+    text-align: center;
+}
+.rab2{
+    display: flex;
+    border: 1px solid #8b6f3d;
+    margin: 0 30px ;
+}
+.rab2 h2{
+    color: #8b6f3d;
+    text-align: center;
+}
+.rab3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.rab3 p{
+    margin-left: 10px;
+    color: #8b6f3d;
+    letter-spacing: 3px;
+}
+.membership{
+    margin: 60px 0px;
+    height: 600px;
+    width: 100%;
+    background-color: #efebe4;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  text-align: center;
+    align-items: center;
+}
+.membership fieldset{
+    border: 3px solid black;
+}
+.joinbenefits{
+    padding-left: 90px;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    list-style: outside;
+}
+.butt3 a{
+    background-color: #987742;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.facact{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.mainheadings{
+    font-size: 57px;
+    letter-spacing: 3px;
+    width: 100%;
+    color: #8b6f3d;
+    text-align: center;
+
+}
+.rab2 a{
+    text-decoration: none;
+     color: #8b6f3d;
+}
+.rab2 a:hover{
     text-decoration: underline;
 }
