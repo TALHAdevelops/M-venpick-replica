@@ -193,9 +193,11 @@
   width: 55%;
 }
 .cards{
-    margin: 20px;
+    margin-top: 20px;
     display: flex;
-    gap: 10px;
+    justify-content: space-evenly;
+    
+    max-width: 1200px;
 }
 .cards h3{
     color: #8b6f3d;
