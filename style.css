@@ -19,7 +19,7 @@
     height: 5rem;
     width: 100%;
 }
-.links a,ul{
+.links a,.links ul{
     position: relative;
     text-decoration: none;
     list-style: none;
@@ -137,8 +137,10 @@
 .content p{
     color: rgb(77, 77, 77);
     font-size: large;
+    width: 50%;
+    margin: auto;
 }
-.content h2,p{
+.content h2{
     width: 50%;
     margin: auto;
 }
@@ -294,4 +296,76 @@ text-decoration: none;
 }
 .rab2 a:hover{
     text-decoration: underline;
+}
+.prac_inform{
+    margin-top: 100px;
+}
+.loc_cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.loc_cont h2{
+    color: #8b6f3d;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.loc_cont_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+}
+.loc_cont_text h3{
+    color: #8b6f3d;
+}
+.loc_cont_text p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.reviews{
+    margin: 100px 30px;
+}
+.revhead{
+    display: flex;
+    gap: 400px;
+}
+.revcont{
+    margin-bottom: 70px;
+    display: flex;
+    gap: 100px;
+}
+.revcont h3{
+    color: #8b6f3d;
+}
+.readmore{
+    text-decoration: none;
+    color: #8b6f3d;
+}
+.readmore:hover{
+    text-decoration: underline;
+}
+.faqs{
+    display: flex;
+    margin-top: 200px;
+}
+.answer{
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    padding-top: 10px;
+}
+summary{
+    cursor: pointer;
+    font-weight: bold;
+    color: #8b6f3d;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+details{
+    margin: 20px 0px;
 }
