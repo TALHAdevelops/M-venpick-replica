@@ -369,3 +369,104 @@ summary{
 details{
     margin: 20px 0px;
 }
+
+.footer{
+    background-color: #F7F4EF;
+    height: auto;
+}
+.foot_loc{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.foot_loc:hover{
+    text-decoration: none;
+}
+.footer2{
+    padding: 60px 0px;
+    display: flex;
+    gap: 200px;
+    
+
+}
+.f2p1{
+    width: 40%;
+    padding-left: 40px;
+}
+.f2p1 h3{
+    margin-bottom: 30px;
+    
+}
+.f2p1 p{
+    margin-bottom: 70px;
+}
+.f2p2 h4{
+    text-align: left;
+    padding-top: 30px;
+    color: rgb(94, 94, 94);
+}
+.f2p2 p{
+    font-size: small;
+    padding-bottom: 10px;
+}
+.f2p2 p:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.footer3{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer3 p{
+    padding-bottom: 10px;
+    font-size: small;
+    font-weight: lighter;
+}
+.footer3 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.categories{
+    padding-top: 100px;
+    padding-bottom : 50px;
+    padding-left: 60px;
+}
+.catcont{
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+.catcont img{
+
+    cursor: pointer;
+}
+.catcont p{
+    font-size: x-large;
+    
+}
+.spons img{ 
+    padding-right: 11px;
+    
+}
+.socials{
+    padding: 30px 0px;
+    text-align: center;
+}
+.socials1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.socials2{
+    padding-top: 30px;
+}
+.socials2 a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    padding-right: 30px;
+}
